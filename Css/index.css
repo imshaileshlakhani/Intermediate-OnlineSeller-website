@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+center .top-center-logo {
+    margin: 0;
+    width: 200px;
+    height: 200px;
+}
+
+center .top-center-image {
+    margin: 20px 0;
+    width: 600px;
+    height: 650px;
+}
+
+
+/*  amazon btn   */
+
+.store-link-btn {
+    display: grid;
+    place-items: center;
+}
+
+.btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #e74c3c;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.btn:hover,
+.btn:focus {
+    color: #fff;
+    outline: 0;
+}
+
+.btn-store {
+    border-color: #a4b0be;
+    color: #000;
+    background-image: -webkit-linear-gradient(45deg, #a4b0be 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #a4b0be 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+}
+
+.btn-store:hover {
+    background-position: 0;
+    color: white;
+}
+
+.flipkart
+{
+    border-color: #047BD5;
+    color: #000;
+    background-image: -webkit-linear-gradient(45deg, #f8e831 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #f8e831 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+}
+.flipkart:hover{
+    background-position: 0;
+    color:#047BD5 ;
+    font-weight: 600;
+}
+
+/* product */
+.product {
+    position: relative;
+}
+.product .col-12{
+    margin: 50px auto;
+}
+
+.product .product-image img {
+    width: 100%;
+    height: 220px;
+}
+
+
+.product .caption{
+    width: 100%;
+    padding: 3px 5px;
+    /*background-color: grey;*/
+    float: left;
+}
+
+.product .caption .title
+{
+    width: 65%;
+    padding: 3px 10px;
+    /*background-color: white;*/
+    font-size: 18px;
+    font-family: 'Actor', sans-serif;
+    float: left;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+
+.product .caption .price
+{
+    font-family: 'Actor',sans-serif;
+    width: 35%;
+    margin-top: 5px;
+    font-size: 26px;
+    padding: 3px 20px;
+    /*background-color: black;*/
+    text-align: right;
+    font-weight: bold;
+    float: left;
+}
+
+
+.product-button{
+    width: 100%;
+}
+.product .product-button button {
+    width: 40%;
+    margin: 0 5%;
+    text-transform: capitalize;
+    padding: 5px 0;
+    font-family: 'Robot',sans-serif;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
+    
+.product .btn-flipkart{
+    background-color: white ;
+    color: #047BD5;
+    border: 2px solid #f8e831;
+}
+.product .btn-flipkart:hover{
+    background-color: #f8e831 ;
+    color: #047BD5;
+    border: 2px solid #f8e831;
+}
+
+.product .btn-amazon{
+    background-color: black ;
+    color: white;
+    border: 2px solid black;
+}
+.product .btn-amazon:hover{
+    background-color: white ;
+    color: black;
+    border: 2px solid black;
+}
+@media (max-width: 880px) {
+    center .top-center-image {
+        margin: 20px 0;
+        width: 80%;
+        height: 400px;
+    }
+}

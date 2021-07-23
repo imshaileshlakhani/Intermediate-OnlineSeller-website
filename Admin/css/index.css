@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+
+.add:hover {
+    background-color: #8854d0;
+    color: white;
+}
+
+.add a{
+    color: #8854d0;
+}
+.add:hover a{
+    color: white;
+} 
+.add {
+    background-color: white;
+    color: #8854d0;
+    border: 2px solid #8854d0 !important;
+    text-transform: capitalize;
+}
+
+.product {
+    position: relative;
+}
+.product .col-12{
+    margin: 40px auto;
+}
+.product .product-image img {
+    width: 100%;
+    height: 220px;
+}
+
+.product .caption{
+    width: 100%;
+    padding: 3px 5px;
+    /*background-color: grey;*/
+    float: left;
+}
+
+.product .caption .title
+{
+    width: 65%;
+    padding: 3px 10px;
+    /*background-color: white;*/
+    font-size: 18px;
+    font-family: 'Actor', sans-serif;
+    float: left;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+
+.product .caption .price
+{
+    font-family: 'Actor',sans-serif;
+    width: 35%;
+    margin-top: 5px;
+    font-size: 26px;
+    padding: 3px 20px;
+    /*background-color: black;*/
+    text-align: right;
+    font-weight: bold;
+    float: left;
+}
+
+.product .product-button button {
+    width: 40%;
+    margin: 0 5%;
+    text-transform: capitalize;
+}
+
+.product .product-button .edit {
+    background-color: black;
+    border: 2px solid;
+    color: white;
+}
+
+.product .product-button .edit:hover {
+    background-color: white;
+    border: 2px solid;
+    color: black;
+}

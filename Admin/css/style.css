@@ -1,0 +1,43 @@
+
+.row,
+.col-12 {
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    margin: auto 10px;
+}
+.fa-user-circle{
+    margin-top: 4px;
+    font-size: 23px;
+ }
+
+center img {
+    margin: 0;
+    width: 200px;
+    height: 200px;
+}
+footer{
+    width: 100%;
+}
+footer .social-media{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 50px 0;
+}
+footer a{
+    font-size: 20px;
+    margin: 0 20px;
+    color: white;
+    text-decoration: none;
+    padding:5px 13px;
+    border-radius: 5px;
+}
+footer a:hover{
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.4);
+
+    text-decoration: none;
+}

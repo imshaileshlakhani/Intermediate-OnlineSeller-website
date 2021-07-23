@@ -1,0 +1,60 @@
+#contact .col-sm-12 {
+    padding: 30px 100px;
+    background-color: #f1f2f6;
+}
+
+.contact-us {
+    color: grey;
+}
+
+.contact-us .address {
+    margin: 30px 0;
+}
+
+.social-media {
+    margin: 30px 0;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: grey;
+    font-size: 23px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.social-media a:hover {
+    color: #f1f2f6;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.whatsapp a {
+    color: white;
+    background-image: linear-gradient( to left, #128C7E, #075E54);
+    line-height: 25px;
+    padding: 10px 25px 10px 20px;
+    border-radius: 50px;
+    font-size: 18px;
+}
+
+.whatsapp a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.whatsapp a i {
+    margin-right: 5px;
+}
+
+.form-group button {
+    border-radius: 1px;
+    float: right;
+    text-transform: capitalize;
+    padding: 5px 17px;
+}
+
+@media (max-width: 880px) {
+    #contact .col-sm-12 {
+        padding: 30px 20px;
+    }
+}
